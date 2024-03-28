@@ -1,0 +1,17 @@
+
+def создать_расширенный_список(nums):
+    n = len(nums)
+    ans = nums * 2
+    return ans
+nums = [1,2,3,4]
+ans = создать_расширенный_список
+print(ans)
+
+
+
+def создать_массив_ans(nums):
+    ans = [nums[nums[i]] for i in range(len)(nums)]
+    return ans
+nums - [0,2,1,5,3,4]
+ans = создать_массив_ans(nums)
+print(ans)
